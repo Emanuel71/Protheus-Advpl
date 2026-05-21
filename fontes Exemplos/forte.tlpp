@@ -1,0 +1,6 @@
+User Function forte ()
+local cTexto as Character
+
+cTexto := "texto"
+
+RETURN

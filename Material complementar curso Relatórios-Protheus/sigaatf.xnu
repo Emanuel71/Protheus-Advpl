@@ -1,0 +1,259 @@
+<ApMenu>
+	<DocumentProperties>
+		<Module>SIGAATF</Module>
+		<Version>10.1</Version>
+	</DocumentProperties>
+	<Menu Status="Enable">
+		<Title lang="pt">&Atualizações</Title>
+		<Title lang="es">&Actualizaciones</Title>
+		<Title lang="en">&Updates</Title>
+		<Menu Status="Enable">
+			<Title lang="pt">Cadastros</Title>
+			<Title lang="es">Archivos</Title>
+			<Title lang="en">Files</Title>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Acervo</Title>
+				<Title lang="es">Colección</Title>
+				<Title lang="en">Collection</Title>
+				<Function>Acervo</Function>
+				<Type>3</Type>
+				<Tables>SZ4</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>01</Module>
+				<Owner>1</Owner>
+				<KeyWord>
+					<KeyWord lang="pt">Acervo</KeyWord>
+					<KeyWord lang="es">Colección</KeyWord>
+					<KeyWord lang="en">Collection</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Autores</Title>
+				<Title lang="es">Autores</Title>
+				<Title lang="en">Author</Title>
+				<Function>Autores</Function>
+				<Type>3</Type>
+				<Tables>SZ2</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>01</Module>
+				<Owner>1</Owner>
+				<KeyWord>
+					<KeyWord lang="pt">Autores</KeyWord>
+					<KeyWord lang="es">Autores</KeyWord>
+					<KeyWord lang="en">Author</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Editoras</Title>
+				<Title lang="es">Editores</Title>
+				<Title lang="en">Publishers</Title>
+				<Function>Editoras</Function>
+				<Type>3</Type>
+				<Tables>SZ3</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>01</Module>
+				<Owner>1</Owner>
+				<KeyWord>
+					<KeyWord lang="pt">Editoras</KeyWord>
+					<KeyWord lang="es">Editores</KeyWord>
+					<KeyWord lang="en">Publishers</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Emprestimos</Title>
+				<Title lang="es">Préstamos</Title>
+				<Title lang="en">Loans</Title>
+				<Function>Emprestimos</Function>
+				<Type>3</Type>
+				<Tables>SZ6</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>01</Module>
+				<Owner>1</Owner>
+				<KeyWord>
+					<KeyWord lang="pt">Emprestimos</KeyWord>
+					<KeyWord lang="es">Préstamos</KeyWord>
+					<KeyWord lang="en">Loans</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Usuarios</Title>
+				<Title lang="es">Usuarios</Title>
+				<Title lang="en">Users</Title>
+				<Function>Usuarios</Function>
+				<Type>3</Type>
+				<Tables>SZ1</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>01</Module>
+				<Owner>1</Owner>
+				<KeyWord>
+					<KeyWord lang="pt">Usuarios</KeyWord>
+					<KeyWord lang="es">Usuarios</KeyWord>
+					<KeyWord lang="en">Users</KeyWord>
+				</KeyWord>
+			</MenuItem>
+		</Menu>
+	</Menu>
+	<Menu Status="Enable">
+		<Title lang="pt">&Relatorios</Title>
+		<Title lang="es">&Informes</Title>
+		<Title lang="en">&Reports</Title>
+		<Menu Status="Enable">
+			<Title lang="pt">TMSPrinter</Title>
+			<Title lang="es">TMSPrinter</Title>
+			<Title lang="en">TMSPrinter</Title>
+			
+			<MenuItem Status="Enable">
+				<Title lang="pt">Exemplo</Title>
+				<Title lang="es">Exemplo</Title>
+				<Title lang="en">Sample</Title>
+				<Function>TMSRel00</Function>
+				<Type>3</Type>
+				<Tables>SZ2</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>01</Module>
+				<Owner>1</Owner>
+				<KeyWord>
+					<KeyWord lang="pt">Exemplo</KeyWord>
+					<KeyWord lang="es">Exemplo</KeyWord>
+					<KeyWord lang="en">Sample</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			
+			<MenuItem Status="Enable">
+				<Title lang="pt">Autores</Title>
+				<Title lang="es">Autores</Title>
+				<Title lang="en">Authors</Title>
+				<Function>TMSRel01</Function>
+				<Type>3</Type>
+				<Tables>SZ2</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>01</Module>
+				<Owner>1</Owner>
+				<KeyWord>
+					<KeyWord lang="pt">Autores</KeyWord>
+					<KeyWord lang="es">Autores</KeyWord>
+					<KeyWord lang="en">Authors</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			
+			<MenuItem Status="Enable">
+				<Title lang="pt">Livros</Title>
+				<Title lang="es">Libros</Title>
+				<Title lang="en">Books</Title>
+				<Function>TMSRel02</Function>
+				<Type>3</Type>
+				<Tables>SZ4</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>01</Module>
+				<Owner>1</Owner>
+				<KeyWord>
+					<KeyWord lang="pt">Livros</KeyWord>
+					<KeyWord lang="es">Libros</KeyWord>
+					<KeyWord lang="en">Books</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			
+			<MenuItem Status="Enable">
+				<Title lang="pt">Livros X Autor</Title>
+				<Title lang="es">Libros X Autor</Title>
+				<Title lang="en">Books X Author</Title>
+				<Function>TMSRel03</Function>
+				<Type>3</Type>
+				<Tables>SZ4</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>01</Module>
+				<Owner>1</Owner>
+				<KeyWord>
+					<KeyWord lang="pt">Livros, Autor</KeyWord>
+					<KeyWord lang="es">Libros, Autor</KeyWord>
+					<KeyWord lang="en">Books, Author</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			
+		</Menu>
+		
+		<Menu Status="Enable">
+			<Title lang="pt">TReport</Title>
+			<Title lang="es">TReport</Title>
+			<Title lang="en">TReport</Title>
+			<MenuItem Status="Enable">
+				<Title lang="pt">Autores</Title>
+				<Title lang="es">Autores</Title>
+				<Title lang="en">Authors</Title>
+				<Function>TRepo01</Function>
+				<Type>3</Type>
+				<Tables>SZ2</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>01</Module>
+				<Owner>1</Owner>
+				<KeyWord>
+					<KeyWord lang="pt">Autores</KeyWord>
+					<KeyWord lang="es">Autores</KeyWord>
+					<KeyWord lang="en">Authors</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			
+			<MenuItem Status="Enable">
+				<Title lang="pt">Livros</Title>
+				<Title lang="es">Libros</Title>
+				<Title lang="en">Books</Title>
+				<Function>TRepo02</Function>
+				<Type>3</Type>
+				<Tables>SZ2</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>01</Module>
+				<Owner>1</Owner>
+				<KeyWord>
+					<KeyWord lang="pt">Livros</KeyWord>
+					<KeyWord lang="es">Libros</KeyWord>
+					<KeyWord lang="en">Books</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			
+			<MenuItem Status="Enable">
+				<Title lang="pt">Emprestimos</Title>
+				<Title lang="es">Préstamos</Title>
+				<Title lang="en">Loans</Title>
+				<Function>TRepo03</Function>
+				<Type>3</Type>
+				<Tables>SZ6</Tables>
+				<Tables>SZ7</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>01</Module>
+				<Owner>1</Owner>
+				<KeyWord>
+					<KeyWord lang="pt">Emprestimos</KeyWord>
+					<KeyWord lang="es">Préstamos</KeyWord>
+					<KeyWord lang="en">Loans</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			
+			<MenuItem Status="Enable">
+				<Title lang="pt">Emprestimos 2</Title>
+				<Title lang="es">Préstamos 2</Title>
+				<Title lang="en">Loans 2</Title>
+				<Function>TRepo04</Function>
+				<Type>3</Type>
+				<Tables>SZ6</Tables>
+				<Tables>SZ7</Tables>
+				<Access>xxxxxxxxxx</Access>
+				<Module>01</Module>
+				<Owner>1</Owner>
+				<KeyWord>
+					<KeyWord lang="pt">Emprestimos</KeyWord>
+					<KeyWord lang="es">Préstamos</KeyWord>
+					<KeyWord lang="en">Loans</KeyWord>
+				</KeyWord>
+			</MenuItem>
+			
+		</Menu>
+		
+	</Menu>
+	<Menu Status="Enable">
+		<Title lang="pt">&Miscelanea</Title>
+		<Title lang="es">&Miscelanea</Title>
+		<Title lang="en">&Miscellaneous</Title>
+		<ItemID>A010000004</ItemID>
+	</Menu>
+	
+</ApMenu>
