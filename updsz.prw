@@ -66,10 +66,8 @@ Static Function AtualizaDB(lEnd, aTabelas)
 
 Return .T.
 
-// ==================================================================
-// IMPORTANTE: SEU CÓDIGO ORIGINAL CONTINUA INTACTO DAQUI PARA BAIXO!
-// A partir daqui deve começar a sua: Static Function FSAtuSX2()
-// ==================================================================
+
+// CÓDIGO ORIGINAL CONTINUA INTACTO DAQUI PARA BAIXO!
 
 //--------------------------------------------------------------------
 /*/{Protheus.doc} FSAtuSX2
