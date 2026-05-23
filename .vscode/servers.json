@@ -7,53 +7,53 @@
 		"authorizationtoken": ""
 	},
 	"connectedServer": {
-		"id": "wsj1x9zvo2dmp4moh9n3fuzsemr99t",
+		"id": "q8yj0tey63empikmqmvksyghmi085f",
 		"type": "totvs_server_protheus",
 		"name": "AMBTST",
 		"port": 1257,
-		"address": "localhost",
+		"address": "Localhost",
 		"buildVersion": "7.00.240223P",
-		"secure": true,
+		"secure": false,
 		"includes": [
-			"C:/Users/Samsung/OneDrive/Desktop/Protheus-Advpl/Includes"
+			"C:\\Users\\Samsung\\OneDrive\\Desktop\\Protheus-Advpl\\Includes"
 		],
 		"environments": [
 			"AMBTST"
 		],
-		"username": "admin",
 		"environment": "AMBTST",
-		"token": "djM6d3NqMXg5enZvMmRtcDRtb2g5bjNmdXpzZW1yOTl0OjE6bG9jYWxob3N0OjEyNTc6MTo3LjAwLjI0MDIyM1A6Mw==:djE6QU1CVFNUOmFkbWluOnpTRW9qMW9JTWhHbkEwTWp5bUh0WExiQlFJVEtSWTJyanVyd2toTk5zK2s9|djI6MTc3OTU1MDAyNjowOjE6MQ==.bWppXn2VetJ90jdDL8VqJYttoBqCk7ubDb7jpzW8irnKbLGS45oRo4zlXy4PGi8wzSBeTaT1v1t34+X7zPMESIKrX14SrTH2a4zPwFDLA3XYLMGuuQATC+rtYrvjha3wsdKGxCLWB4uYXycm7cLwmE84WIfXkg6cY4q6Vmj50etDJQb5h+LFTC/91Qf6x5FndtdUBUrJjl0Mh1WfG1tWa7PUsSI5VAd6O00g3+WX8oDVr9ojLLBoYqH4twFUOYoIu2nI2a452XnBXJ4zCHw+KvoEi4aSaZzGEUmOUYzs7gtMe3FM6HS07w8+zMfqQfWwtDtpbemL4Zwu0mNOeLFA+w==",
+		"token": "djM6cTh5ajB0ZXk2M2VtcGlrbXFtdmtzeWdobWkwODVmOjE6TG9jYWxob3N0OjEyNTc6MDo3LjAwLjI0MDIyM1A6Mw==:djE6QU1CVFNUOmFkbWluOmRDSTVtRmVtdG4vZXBGUktEalc4K1BMa2RoZld0Z21Va3dOaGJGQUJWSm89|djI6MTc3OTU1NDI3MzowOjE6MQ==.qbNlH0WkMeaQV8sKIFBNafTX3XAtO4khMz2B2dPrVNABBkuCmvu/cStGBsmKc+xx2pWIerCmeU9UColPtpricXHoZzEBXIRJhoEg7uq8WCKtsXFxeo9FPEO3vfHTTShLSs65DNBkLsFtGPSIHbVMaTwIoQlr5JUu5PvRKXYchlnC4muRxm/lYv91eIHrpBB8jLubAjIVfJEpgHNTvfKzQ/CEGNqMlYyCaEtpmNJH6LFJYVqw9Qiu/zTAPCuFCXyRs9jVd27jwyefRyyBsEj5upNcMByl9XeOOIv1bLGhxP3Yi+KGAIawKh8bzZRQt3vbM2ncwg2947yZFQpVMeylEw==",
 		"informations": {
 			"permissions": [],
 			"errorMessage": "",
 			"environmentDetectedType": "totvs_server_protheus",
 			"serverDetectedType": "totvs_server_protheus"
-		}
+		},
+		"username": "admin"
 	},
 	"configurations": [
 		{
-			"id": "wsj1x9zvo2dmp4moh9n3fuzsemr99t",
+			"id": "q8yj0tey63empikmqmvksyghmi085f",
 			"type": "totvs_server_protheus",
 			"name": "AMBTST",
 			"port": 1257,
-			"address": "localhost",
+			"address": "Localhost",
 			"buildVersion": "7.00.240223P",
-			"secure": true,
+			"secure": false,
 			"includes": [
-				"C:/Users/Samsung/OneDrive/Desktop/Protheus-Advpl/Includes"
+				"C:\\Users\\Samsung\\OneDrive\\Desktop\\Protheus-Advpl\\Includes"
 			],
 			"environments": [
 				"AMBTST"
 			],
-			"username": "admin",
 			"environment": "AMBTST",
-			"token": "djM6d3NqMXg5enZvMmRtcDRtb2g5bjNmdXpzZW1yOTl0OjE6bG9jYWxob3N0OjEyNTc6MTo3LjAwLjI0MDIyM1A6Mw==:djE6QU1CVFNUOmFkbWluOnpTRW9qMW9JTWhHbkEwTWp5bUh0WExiQlFJVEtSWTJyanVyd2toTk5zK2s9|djI6MTc3OTU1MDAyNjowOjE6MQ==.bWppXn2VetJ90jdDL8VqJYttoBqCk7ubDb7jpzW8irnKbLGS45oRo4zlXy4PGi8wzSBeTaT1v1t34+X7zPMESIKrX14SrTH2a4zPwFDLA3XYLMGuuQATC+rtYrvjha3wsdKGxCLWB4uYXycm7cLwmE84WIfXkg6cY4q6Vmj50etDJQb5h+LFTC/91Qf6x5FndtdUBUrJjl0Mh1WfG1tWa7PUsSI5VAd6O00g3+WX8oDVr9ojLLBoYqH4twFUOYoIu2nI2a452XnBXJ4zCHw+KvoEi4aSaZzGEUmOUYzs7gtMe3FM6HS07w8+zMfqQfWwtDtpbemL4Zwu0mNOeLFA+w==",
+			"token": "djM6cTh5ajB0ZXk2M2VtcGlrbXFtdmtzeWdobWkwODVmOjE6TG9jYWxob3N0OjEyNTc6MDo3LjAwLjI0MDIyM1A6Mw==:djE6QU1CVFNUOmFkbWluOmRDSTVtRmVtdG4vZXBGUktEalc4K1BMa2RoZld0Z21Va3dOaGJGQUJWSm89|djI6MTc3OTU1NDI3MzowOjE6MQ==.qbNlH0WkMeaQV8sKIFBNafTX3XAtO4khMz2B2dPrVNABBkuCmvu/cStGBsmKc+xx2pWIerCmeU9UColPtpricXHoZzEBXIRJhoEg7uq8WCKtsXFxeo9FPEO3vfHTTShLSs65DNBkLsFtGPSIHbVMaTwIoQlr5JUu5PvRKXYchlnC4muRxm/lYv91eIHrpBB8jLubAjIVfJEpgHNTvfKzQ/CEGNqMlYyCaEtpmNJH6LFJYVqw9Qiu/zTAPCuFCXyRs9jVd27jwyefRyyBsEj5upNcMByl9XeOOIv1bLGhxP3Yi+KGAIawKh8bzZRQt3vbM2ncwg2947yZFQpVMeylEw==",
 			"informations": {
 				"permissions": [],
 				"errorMessage": "",
 				"environmentDetectedType": "totvs_server_protheus",
 				"serverDetectedType": "totvs_server_protheus"
-			}
+			},
+			"username": "admin"
 		}
 	],
 	"savedTokens": [
@@ -63,7 +63,21 @@
 				"id": "wsj1x9zvo2dmp4moh9n3fuzsemr99t",
 				"token": "djM6d3NqMXg5enZvMmRtcDRtb2g5bjNmdXpzZW1yOTl0OjE6bG9jYWxob3N0OjEyNTc6MTo3LjAwLjI0MDIyM1A6Mw==:djE6QU1CVFNUOmFkbWluOnpTRW9qMW9JTWhHbkEwTWp5bUh0WExiQlFJVEtSWTJyanVyd2toTk5zK2s9|djI6MTc3OTU1MDAyNjowOjE6MQ==.bWppXn2VetJ90jdDL8VqJYttoBqCk7ubDb7jpzW8irnKbLGS45oRo4zlXy4PGi8wzSBeTaT1v1t34+X7zPMESIKrX14SrTH2a4zPwFDLA3XYLMGuuQATC+rtYrvjha3wsdKGxCLWB4uYXycm7cLwmE84WIfXkg6cY4q6Vmj50etDJQb5h+LFTC/91Qf6x5FndtdUBUrJjl0Mh1WfG1tWa7PUsSI5VAd6O00g3+WX8oDVr9ojLLBoYqH4twFUOYoIu2nI2a452XnBXJ4zCHw+KvoEi4aSaZzGEUmOUYzs7gtMe3FM6HS07w8+zMfqQfWwtDtpbemL4Zwu0mNOeLFA+w=="
 			}
+		],
+		[
+			"q8yj0tey63empikmqmvksyghmi085f:ANBTST",
+			{
+				"id": "q8yj0tey63empikmqmvksyghmi085f",
+				"token": "djM6cTh5ajB0ZXk2M2VtcGlrbXFtdmtzeWdobWkwODVmOjE6TG9jYWxob3N0OjEyNTc6MDo3LjAwLjI0MDIyM1A6Mw==:djE6QU5CVFNUOm5vdXNlcjpoMit5YUh0L3l0RC9ubzdYV2VrdDc4QkdEWWZPSmVvc3VjTERqb2ppMnNZPQ==|djI6MTc3OTU1NDIzMDoyOjE6MA==.EQdRvH5zECG563cBvRkP4intX3Qedft3b4qzitHWGWL7dFOmmMSA0g6VwqyoAfkJ3SmA68KARviwV3UxUOrohKQRLfq7lEMsW4ImMUc1x2rooUQOPp0a3+yycpLFZiLKr2ALfz+68h0JrN+1GQ7HC1WkprywFnBZi6GHfLI8TV7lfp3ETLFLx1BHnJC6isZT/rFCMRVSOOyeOIJXVPcc2XRIJo/g22WiMPnolyWIy8x1jNBsc1/z1RBuTKFJJgf30WTBBd1G525Y+cptpkm9rTJLucF63EuoJqPXZcrm1vSw8WMmRSvxQlwo+r4UFefzkDU5U1e3cG3icjVAeCb0ZQ=="
+			}
+		],
+		[
+			"q8yj0tey63empikmqmvksyghmi085f:AMBTST",
+			{
+				"id": "q8yj0tey63empikmqmvksyghmi085f",
+				"token": "djM6cTh5ajB0ZXk2M2VtcGlrbXFtdmtzeWdobWkwODVmOjE6TG9jYWxob3N0OjEyNTc6MDo3LjAwLjI0MDIyM1A6Mw==:djE6QU1CVFNUOmFkbWluOmRDSTVtRmVtdG4vZXBGUktEalc4K1BMa2RoZld0Z21Va3dOaGJGQUJWSm89|djI6MTc3OTU1NDI3MzowOjE6MQ==.qbNlH0WkMeaQV8sKIFBNafTX3XAtO4khMz2B2dPrVNABBkuCmvu/cStGBsmKc+xx2pWIerCmeU9UColPtpricXHoZzEBXIRJhoEg7uq8WCKtsXFxeo9FPEO3vfHTTShLSs65DNBkLsFtGPSIHbVMaTwIoQlr5JUu5PvRKXYchlnC4muRxm/lYv91eIHrpBB8jLubAjIVfJEpgHNTvfKzQ/CEGNqMlYyCaEtpmNJH6LFJYVqw9Qiu/zTAPCuFCXyRs9jVd27jwyefRyyBsEj5upNcMByl9XeOOIv1bLGhxP3Yi+KGAIawKh8bzZRQt3vbM2ncwg2947yZFQpVMeylEw=="
+			}
 		]
 	],
-	"lastConnectedServer": "wsj1x9zvo2dmp4moh9n3fuzsemr99t"
+	"lastConnectedServer": "q8yj0tey63empikmqmvksyghmi085f"
 }

@@ -1,5 +1,15 @@
 {
 	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "totvs_language_web_debug",
+			"request": "launch",
+			"name": "Smart Client Web Debug",
+			"program": "${command:AskForProgramName}",
+			"isMultiSession": true,
+			"enableTableSync": true
+		}
+	],
 	"lastPrograms": [
 		{
 			"args": [],
@@ -7,8 +17,11 @@
 		},
 		{
 			"label": "u_teste1"
+		},
+		{
+			"label": "u_teste2"
 		}
 	],
-	"lastProgramExecuted": "u_teste1",
+	"lastProgramExecuted": "u_teste2",
 	"lastProgramArguments": []
 }
