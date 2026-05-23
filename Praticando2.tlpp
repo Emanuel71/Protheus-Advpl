@@ -1,0 +1,9 @@
+#INCLUDE "protheus.ch"
+
+User Function teste2 ()
+
+Local cTexto as Character
+
+cTexto := '10'
+
+Return

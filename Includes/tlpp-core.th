@@ -1,0 +1,32 @@
+#ifndef _TLPP_CORE_TH_
+#define _TLPP_CORE_TH_
+
+/*
+    TLPP Core Header
+    Definições fundamentais para a linguagem TLPP
+*/
+
+#ifndef TLPP_CORE_VERSION
+    #define TLPP_CORE_VERSION "1.1.0"
+#endif
+
+/* Definições de visibilidade e escopo 
+*/
+#xtranslate namespace <(name)> => 
+#xtranslate using namespace <(name)> => 
+
+/* Tratamento de Anotações (Annotations) 
+*/
+#xcommand @<name>( [<args,...>] ) =>
+
+/* Tipagem de dados (Strong Typing) 
+*/
+#define AS_STRING as string
+#define AS_NUMERIC as numeric
+#define AS_LOGICAL as logical
+#define AS_DATE as date
+#define AS_ARRAY as array
+#define AS_OBJECT as object
+#define AS_VAR as variant
+
+#endif

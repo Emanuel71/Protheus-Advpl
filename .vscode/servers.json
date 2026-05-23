@@ -15,14 +15,14 @@
 		"buildVersion": "7.00.240223P",
 		"secure": true,
 		"includes": [
-			"C:\\TOTVS\\Trabalho\\Includes"
+			"C:/Users/Samsung/OneDrive/Desktop/Protheus-Advpl/Includes"
 		],
 		"environments": [
 			"AMBTST"
 		],
 		"username": "admin",
 		"environment": "AMBTST",
-		"token": "djM6d3NqMXg5enZvMmRtcDRtb2g5bjNmdXpzZW1yOTl0OjE6bG9jYWxob3N0OjEyNTc6MTo3LjAwLjI0MDIyM1A6Mw==:djE6QU1CVFNUOmFkbWluOnpTRW9qMW9JTWhHbkEwTWp5bUh0WExiQlFJVEtSWTJyanVyd2toTk5zK2s9|djI6MTc3OTQ0ODI0OTowOjE6MQ==.SxMWmkq5qVONm67zmiMVvVBmLoDhggr6Un7kHwoN/l7JbjhlxsXcO/IphcTifBPbulCL9FdQS6/riirFHlIIEPIHJQsXAU7iRaVRfsZxmMyS8RoCKuzU+K+YLgXc5s1ww0GwdphkaG1DIR85+UGCuv6znPThiC/rRUKUJgrh/jr23SuQ/EeZyjRo3B63IYHKlC8g7XiGSHfnb66nHDFWq9rBikWGxhEo6hcaZGbCxZbqV+cleYk6ttN2Z47D50yqJIDtngNI1n0+xQnMLFvW7ozvbBkY66m1m53cVqFyrEytVKUT8rpHUm/HrZNa62qsFtXL1BFsWmcMo7I5EBSGGw==",
+		"token": "djM6d3NqMXg5enZvMmRtcDRtb2g5bjNmdXpzZW1yOTl0OjE6bG9jYWxob3N0OjEyNTc6MTo3LjAwLjI0MDIyM1A6Mw==:djE6QU1CVFNUOmFkbWluOnpTRW9qMW9JTWhHbkEwTWp5bUh0WExiQlFJVEtSWTJyanVyd2toTk5zK2s9|djI6MTc3OTU1MDAyNjowOjE6MQ==.bWppXn2VetJ90jdDL8VqJYttoBqCk7ubDb7jpzW8irnKbLGS45oRo4zlXy4PGi8wzSBeTaT1v1t34+X7zPMESIKrX14SrTH2a4zPwFDLA3XYLMGuuQATC+rtYrvjha3wsdKGxCLWB4uYXycm7cLwmE84WIfXkg6cY4q6Vmj50etDJQb5h+LFTC/91Qf6x5FndtdUBUrJjl0Mh1WfG1tWa7PUsSI5VAd6O00g3+WX8oDVr9ojLLBoYqH4twFUOYoIu2nI2a452XnBXJ4zCHw+KvoEi4aSaZzGEUmOUYzs7gtMe3FM6HS07w8+zMfqQfWwtDtpbemL4Zwu0mNOeLFA+w==",
 		"informations": {
 			"permissions": [],
 			"errorMessage": "",
@@ -40,14 +40,14 @@
 			"buildVersion": "7.00.240223P",
 			"secure": true,
 			"includes": [
-				"C:\\TOTVS\\Trabalho\\Includes"
+				"C:/Users/Samsung/OneDrive/Desktop/Protheus-Advpl/Includes"
 			],
 			"environments": [
 				"AMBTST"
 			],
 			"username": "admin",
 			"environment": "AMBTST",
-			"token": "djM6d3NqMXg5enZvMmRtcDRtb2g5bjNmdXpzZW1yOTl0OjE6bG9jYWxob3N0OjEyNTc6MTo3LjAwLjI0MDIyM1A6Mw==:djE6QU1CVFNUOmFkbWluOnpTRW9qMW9JTWhHbkEwTWp5bUh0WExiQlFJVEtSWTJyanVyd2toTk5zK2s9|djI6MTc3OTQ0ODI0OTowOjE6MQ==.SxMWmkq5qVONm67zmiMVvVBmLoDhggr6Un7kHwoN/l7JbjhlxsXcO/IphcTifBPbulCL9FdQS6/riirFHlIIEPIHJQsXAU7iRaVRfsZxmMyS8RoCKuzU+K+YLgXc5s1ww0GwdphkaG1DIR85+UGCuv6znPThiC/rRUKUJgrh/jr23SuQ/EeZyjRo3B63IYHKlC8g7XiGSHfnb66nHDFWq9rBikWGxhEo6hcaZGbCxZbqV+cleYk6ttN2Z47D50yqJIDtngNI1n0+xQnMLFvW7ozvbBkY66m1m53cVqFyrEytVKUT8rpHUm/HrZNa62qsFtXL1BFsWmcMo7I5EBSGGw==",
+			"token": "djM6d3NqMXg5enZvMmRtcDRtb2g5bjNmdXpzZW1yOTl0OjE6bG9jYWxob3N0OjEyNTc6MTo3LjAwLjI0MDIyM1A6Mw==:djE6QU1CVFNUOmFkbWluOnpTRW9qMW9JTWhHbkEwTWp5bUh0WExiQlFJVEtSWTJyanVyd2toTk5zK2s9|djI6MTc3OTU1MDAyNjowOjE6MQ==.bWppXn2VetJ90jdDL8VqJYttoBqCk7ubDb7jpzW8irnKbLGS45oRo4zlXy4PGi8wzSBeTaT1v1t34+X7zPMESIKrX14SrTH2a4zPwFDLA3XYLMGuuQATC+rtYrvjha3wsdKGxCLWB4uYXycm7cLwmE84WIfXkg6cY4q6Vmj50etDJQb5h+LFTC/91Qf6x5FndtdUBUrJjl0Mh1WfG1tWa7PUsSI5VAd6O00g3+WX8oDVr9ojLLBoYqH4twFUOYoIu2nI2a452XnBXJ4zCHw+KvoEi4aSaZzGEUmOUYzs7gtMe3FM6HS07w8+zMfqQfWwtDtpbemL4Zwu0mNOeLFA+w==",
 			"informations": {
 				"permissions": [],
 				"errorMessage": "",
@@ -61,7 +61,7 @@
 			"wsj1x9zvo2dmp4moh9n3fuzsemr99t:AMBTST",
 			{
 				"id": "wsj1x9zvo2dmp4moh9n3fuzsemr99t",
-				"token": "djM6d3NqMXg5enZvMmRtcDRtb2g5bjNmdXpzZW1yOTl0OjE6bG9jYWxob3N0OjEyNTc6MTo3LjAwLjI0MDIyM1A6Mw==:djE6QU1CVFNUOmFkbWluOnpTRW9qMW9JTWhHbkEwTWp5bUh0WExiQlFJVEtSWTJyanVyd2toTk5zK2s9|djI6MTc3OTQ0ODI0OTowOjE6MQ==.SxMWmkq5qVONm67zmiMVvVBmLoDhggr6Un7kHwoN/l7JbjhlxsXcO/IphcTifBPbulCL9FdQS6/riirFHlIIEPIHJQsXAU7iRaVRfsZxmMyS8RoCKuzU+K+YLgXc5s1ww0GwdphkaG1DIR85+UGCuv6znPThiC/rRUKUJgrh/jr23SuQ/EeZyjRo3B63IYHKlC8g7XiGSHfnb66nHDFWq9rBikWGxhEo6hcaZGbCxZbqV+cleYk6ttN2Z47D50yqJIDtngNI1n0+xQnMLFvW7ozvbBkY66m1m53cVqFyrEytVKUT8rpHUm/HrZNa62qsFtXL1BFsWmcMo7I5EBSGGw=="
+				"token": "djM6d3NqMXg5enZvMmRtcDRtb2g5bjNmdXpzZW1yOTl0OjE6bG9jYWxob3N0OjEyNTc6MTo3LjAwLjI0MDIyM1A6Mw==:djE6QU1CVFNUOmFkbWluOnpTRW9qMW9JTWhHbkEwTWp5bUh0WExiQlFJVEtSWTJyanVyd2toTk5zK2s9|djI6MTc3OTU1MDAyNjowOjE6MQ==.bWppXn2VetJ90jdDL8VqJYttoBqCk7ubDb7jpzW8irnKbLGS45oRo4zlXy4PGi8wzSBeTaT1v1t34+X7zPMESIKrX14SrTH2a4zPwFDLA3XYLMGuuQATC+rtYrvjha3wsdKGxCLWB4uYXycm7cLwmE84WIfXkg6cY4q6Vmj50etDJQb5h+LFTC/91Qf6x5FndtdUBUrJjl0Mh1WfG1tWa7PUsSI5VAd6O00g3+WX8oDVr9ojLLBoYqH4twFUOYoIu2nI2a452XnBXJ4zCHw+KvoEi4aSaZzGEUmOUYzs7gtMe3FM6HS07w8+zMfqQfWwtDtpbemL4Zwu0mNOeLFA+w=="
 			}
 		]
 	],

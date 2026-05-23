@@ -1,26 +1,14 @@
 {
 	"version": "0.2.0",
-	"configurations": [
-		{
-			"type": "totvs_language_debug",
-			"request": "launch",
-			"name": "Depuração do idioma TOTVS",
-			"program": "${command:AskForProgramName}",
-			"cwb": "${workspaceFolder}",
-			"smartclientBin": "C:/TOTVS/ERP/Protheus/appserver/appserver.exe",
-			"isMultiSession": true,
-			"enableTableSync": true,
-			"extendFeatures": {
-				"charDetails": false
-			}
-		}
-	],
 	"lastPrograms": [
 		{
 			"args": [],
 			"label": "U_UPDSZ"
+		},
+		{
+			"label": "u_teste1"
 		}
 	],
-	"lastProgramExecuted": "U_UPDSZ",
+	"lastProgramExecuted": "u_teste1",
 	"lastProgramArguments": []
 }
