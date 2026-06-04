@@ -38,8 +38,12 @@
 		{
 			"args": [],
 			"label": "U_Funct1"
+		},
+		{
+			"args": [],
+			"label": "U_tipo1"
 		}
 	],
-	"lastProgramExecuted": "U_Funct1",
+	"lastProgramExecuted": "U_tipo1",
 	"lastProgramArguments": []
 }
