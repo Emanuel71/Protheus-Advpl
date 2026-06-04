@@ -6,4 +6,6 @@ Local cTexto as Character
 
 cTexto := '10'
 
-Return
+MsgInfo(cTexto)
+
+Return 

@@ -20,8 +20,26 @@
 		},
 		{
 			"label": "u_teste2"
+		},
+		{
+			"args": [],
+			"label": "U_Func2"
+		},
+		{
+			"args": [],
+			"label": "U_Func1"
+		},
+		{
+			"label": "U_Funct2"
+		},
+		{
+			"label": "U_Funct4"
+		},
+		{
+			"args": [],
+			"label": "U_Funct1"
 		}
 	],
-	"lastProgramExecuted": "u_teste2",
+	"lastProgramExecuted": "U_Funct1",
 	"lastProgramArguments": []
 }
