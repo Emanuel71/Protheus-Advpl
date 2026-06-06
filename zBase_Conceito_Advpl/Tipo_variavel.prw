@@ -12,7 +12,7 @@ User Function Funct1()
 
     Funct4()
 
-    //U_Funct2()
+    //u_Funct2()
  // Aqui aprensentou um erro, pois, cVar1(Local) só irá aparecer no Funct1 e não Funct2 por ser uma variavel local.
 Return
 
@@ -31,7 +31,7 @@ User Function Funct2()
     Alert(cVar2) //Private
     Alert(cVar3) //Public
 
-    Funct3()
+    u_Funct3()
 
  Return  
 

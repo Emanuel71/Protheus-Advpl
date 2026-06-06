@@ -1,4 +1,3 @@
-
 // Funciona em qualquer codigo .prw dentro da pasta
 user function tipo1()
 
