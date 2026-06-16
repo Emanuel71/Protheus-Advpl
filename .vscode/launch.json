@@ -42,8 +42,11 @@
 		{
 			"args": [],
 			"label": "U_tipo1"
+		},
+		{
+			"label": "SIGAESP"
 		}
 	],
-	"lastProgramExecuted": "U_tipo1",
+	"lastProgramExecuted": "SIGAESP",
 	"lastProgramArguments": []
 }
