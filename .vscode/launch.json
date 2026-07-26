@@ -45,6 +45,12 @@
 		},
 		{
 			"label": "SIGAESP"
+		},
+		{
+			"label": "AutoresMVC"
+		},
+		{
+			"label": "U_AutoresMVC"
 		}
 	],
 	"lastProgramExecuted": "SIGAESP",

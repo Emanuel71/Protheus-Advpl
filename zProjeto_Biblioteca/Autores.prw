@@ -5,8 +5,8 @@
 /*/{Protheus.doc} Autores
 Rotina de cadastro de autores
 
-@author Renan Guedes
-@since 18/12/2017
+@author Emanuel Cesar
+@since 22/07/2026
 @version 1
 /*/
 //--------------------------------------------------------------------
