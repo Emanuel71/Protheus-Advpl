@@ -9,7 +9,7 @@
 @Version: 1.0
 ======================================================*/
 
-User Function zAutoresMVC()
+User Function zAutMV()
     local oBrowse
 
     //Criação do objeto do tipo Browse
@@ -28,7 +28,7 @@ User Function zAutoresMVC()
     oBrowse:DisableDetails()
 
     //Chamar Menu
-    oBrowse:SetMenuDef('zAutoresMVC')
+    oBrowse:SetMenuDef('zAutMV')
 
     //Realiza a ativação do Browse
     oBrowse:Activate()
@@ -55,10 +55,10 @@ Static Function MenuDef()
     //O ViewDef deve ser referenciado sempre de um fonte, pois ele é a função reponável pela interface da aplicação
     //=============================================================================================================
     AADD(aRotina, {"Pesquisar" , 'PesqBrw'           , 0, 1, 0, Nil })
-    AADD(aRotina, {"Visualizar", 'VIEWDEF.zAutoresMVC', 0, 2, 0, Nil })
-    AADD(aRotina, {"Incluir"   , 'VIEWDEF.zAutoresMVC', 0, 3, 0, Nil })
-    AADD(aRotina, {"Alterar"   , 'VIEWDEF.zAutoresMVC', 0, 4, 0, Nil })
-    AADD(aRotina, {"Excluir"   , 'VIEWDEF.zAutoresMVC', 0, 5, 0, Nil })
+    AADD(aRotina, {"Visualizar", 'VIEWDEF.zAutMV', 0, 2, 0, Nil })
+    AADD(aRotina, {"Incluir"   , 'VIEWDEF.zAutMV', 0, 3, 0, Nil })
+    AADD(aRotina, {"Alterar"   , 'VIEWDEF.zAutMV', 0, 4, 0, Nil })
+    AADD(aRotina, {"Excluir"   , 'VIEWDEF.zAutMV', 0, 5, 0, Nil })
     
 
 Return aRotina
@@ -74,7 +74,7 @@ Static Function ModelDef()
     Local oStruSZ2  // Objeto da estrutura de dados
 
     //Cria o objeto do modelo de dados
-    oModel := MPFormModel():New('zAutoresMVC')
+    oModel := MPFormModel():New('zAutMV')
 
     //Cria a estrutura que será utilizada no modelo
     oStruSZ2 := FWFormStruct(1,"SZ2") //1-Para modelo de dados (Model) e 2-para View
@@ -106,7 +106,7 @@ Static Function ViewDef()
     Local oView     // Objeto de view
 
     //Cria o objeto do modelo de dados com base no ModelDef do fonte informado
-    oModel := FwLoadModel('zAutoresMVC')
+    oModel := FwLoadModel('zAutMV')
 
     //Cria a estrutura do view
     oStruSZ2 := FWFormStruct(2,"SZ2")  //Tipo de estrutura: 1-Para modelo de dados (Model) e 2-para View {SZ2 = tabela do banco de dados que vai compor a estrutura}

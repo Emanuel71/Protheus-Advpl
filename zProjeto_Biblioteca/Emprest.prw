@@ -4,7 +4,7 @@
 #DEFINE MAXIMO_EXEMPLARES		003
 
 //--------------------------------------------------------------------
-/*/{Protheus.doc} Emprestimos
+/*/{Protheus.doc} Emprest
 Rotina de cadastro de empréstimos
 
 @author Renan Guedes
@@ -12,7 +12,7 @@ Rotina de cadastro de empréstimos
 @version 1
 /*/
 //--------------------------------------------------------------------
-user function Emprestimos()
+user function Emprest()
 	Local aCores			:= {}
 
 	Private aRotina			:= MenuDef()		//Função de opções do menu da rotina
@@ -67,11 +67,11 @@ Static Function MenuDef()
 	Local aRotina		:= {}
 
 	AADD(aRotina,{"Pesquisar"	,"AxPesqui"								,0,1})
-	AADD(aRotina,{"Visualizar"	,"StaticCall(Emprestimos,fManut,2)"		,0,2})
-	AADD(aRotina,{"Incluir"		,"StaticCall(Emprestimos,fManut,3)"		,0,3})
-	AADD(aRotina,{"Devolver"	,"StaticCall(Emprestimos,fDevolver,4)"	,0,4})
-	AADD(aRotina,{"Excluir"		,"StaticCall(Emprestimos,fManut,5)"		,0,5})
-	AADD(aRotina,{"Legenda"		,"StaticCall(Emprestimos,fLegenda)"		,0,3})
+	AADD(aRotina,{"Visualizar"	,"StaticCall(Emprest,fManut,2)"		,0,2})
+	AADD(aRotina,{"Incluir"		,"StaticCall(Emprest,fManut,3)"		,0,3})
+	AADD(aRotina,{"Devolver"	,"StaticCall(Emprest,fDevolver,4)"	,0,4})
+	AADD(aRotina,{"Excluir"		,"StaticCall(Emprest,fManut,5)"		,0,5})
+	AADD(aRotina,{"Legenda"		,"StaticCall(Emprest,fLegenda)"		,0,3})
 
 Return aRotina
 
@@ -159,7 +159,7 @@ Static Function fManut(nOpc)
 	AADD(aNoFields,"Z7_PROTOCO")
 
 	If FillGetDados(nOpc,"SZ7",1,cSeekKey,{|| &cWhile},,aNoFields,,,,,nOpc == 3,,,bAfterCols)
-		oExemplares := MsNewGetDados():New(001,001,001,001,IIF(nOpc != 2,GD_INSERT + GD_UPDATE + GD_DELETE,0),"StaticCall(Emprestimos,fLinhaOk," + cValToChar(nOpc) + ")","AllwaysTrue",,,,MAXIMO_EXEMPLARES,"AllwaysTrue","AllwaysTrue","AllwaysTrue",oPanelExem,aHeader,aCols)
+		oExemplares := MsNewGetDados():New(001,001,001,001,IIF(nOpc != 2,GD_INSERT + GD_UPDATE + GD_DELETE,0),"StaticCall(Emprest,fLinhaOk," + cValToChar(nOpc) + ")","AllwaysTrue",,,,MAXIMO_EXEMPLARES,"AllwaysTrue","AllwaysTrue","AllwaysTrue",oPanelExem,aHeader,aCols)
 		oExemplares:ForceRefresh()
 		oExemplares:oBrowse:Align := CONTROL_ALIGN_ALLCLIENT
 	EndIf

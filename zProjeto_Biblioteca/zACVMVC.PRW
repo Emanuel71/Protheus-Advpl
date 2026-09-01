@@ -9,7 +9,7 @@
 @Version: 1.0
 ======================================================*/
 
-User Function ACVMVC()
+User Function zACVMVC()
 local oBrowse
 Local aTable:= {}
 
@@ -19,9 +19,7 @@ AADD(aTable, "SZ5")
 
 // Faz a validações se as tabelas existem
 
-if AvExisteTab(aTable)
-    FWAlertSuccess("Todas as tabelas diponiveis na base","Pode Prosseguir")
-else
+if !AvExisteTab(aTable)
     FWalertError("Tabelas não foram encontradas na base", "Contate o suporte")
     BREAK
 Endif
@@ -36,7 +34,7 @@ oBrowse:SetAlias('SZ4')
 oBrowse:SetDescription("Acervo")
 
 //Chamar Menu
-oBrowse:SetMenuDef('ACVMVC')
+oBrowse:SetMenuDef('zACVMVC')
 
 //Realiza a ativação do Browse
 oBrowse:Activate()
@@ -63,10 +61,10 @@ Static Function MenuDef()
     //O ViewDef deve ser referenciado sempre de um fonte, pois ele é a função reponável pela interface da aplicação
     //=============================================================================================================
     AADD(aRotina, {"Pesquisar" , 'PesqBrw'           , 0, 1, 0, Nil })
-    AADD(aRotina, {"Visualizar", 'VIEWDEF.ACVMVC'    , 0, 2, 0, Nil })
-    AADD(aRotina, {"Incluir"   , 'VIEWDEF.ACVMVC'    , 0, 3, 0, Nil })
-    AADD(aRotina, {"Alterar"   , 'VIEWDEF.ACVMVC'    , 0, 4, 0, Nil })
-    AADD(aRotina, {"Excluir"   , 'VIEWDEF.ACVMVC'    , 0, 5, 0, Nil })
+    AADD(aRotina, {"Visualizar", 'VIEWDEF.zACVMVC'    , 0, 2, 0, Nil })
+    AADD(aRotina, {"Incluir"   , 'VIEWDEF.zACVMVC'    , 0, 3, 0, Nil })
+    AADD(aRotina, {"Alterar"   , 'VIEWDEF.zACVMVC'    , 0, 4, 0, Nil })
+    AADD(aRotina, {"Excluir"   , 'VIEWDEF.zACVMVC'    , 0, 5, 0, Nil })
     
 Return aRotina
 
@@ -82,11 +80,11 @@ Local oStruSZ4  // Objeto da estrutura de dados
 Local oStruSZ5  // Objeto da estrutura de dados
 
 //Cria o objeto do modelo de dados
-oModel := MPFormModel():New('ACMVC')
+oModel := MPFormModel():New('zACVMVC')
 
 //Cria a estrutura que será utilizada no modelo
 oStruSZ4 := FWFormStruct(1,"SZ4") //1-Para modelo de dados (Model) e 2-para View
-oStruSZ5 := FWFormStruct(1,"SZ5")
+oStruSZ5 := FWFormStruct(1,"SZ5") //1-Para modelo de dados (Model) e 2-para View
 
 // Cria campos obrigatorios
 oStruSZ4:SetProperty( 'Z4_CODIGO' , MODEL_FIELD_OBRIGAT, .T.)
@@ -102,7 +100,7 @@ oModel:GetModel('SZ4_TOPO'):SetPrimaryKey({'Z4_Codigo'})
 
 // Cria Grid
 oModel:AddGrid('SZ5_GRID','SZ4_TOPO',oStruSZ5)
-oModel:GetModel('SZ5_GRID'):Setoptional(.F.)
+oModel:GetModel('SZ5_GRID'):Setoptional(.F.) //F = Obrigatorio, T = Opcional
 
 // Relacionamento entre entidade Pai e Filho
 oModel:SetRelation('SZ5_GRID',{{"Z5_Filial","xFilial('SZ5')"} , {"Z5_ACERVO","Z4_CODIGO"}}, SZ5->(IndexKey(1)) )
@@ -124,12 +122,12 @@ Return oModel
 
 Static Function ViewDef()
 Local oView    :=Nil     // Objeto de view
-Local oModel   := FwLoadModel('ACVMVC') //Cria o objeto do modelo de dados com base no ModelDef do fonte informado
+Local oModel   := FwLoadModel('zACVMVC') //Cria o objeto do modelo de dados com base no ModelDef do fonte informado
 Local oStruSZ4 := FWFormStruct(2,"SZ4") //Cria a estrutura do view Cabeçalho
 Local oStruSZ5 := FWFormStruct(2,"SZ5")// Cria a estrutura do view GRID
 
 //Cria o objeto de view
-oView :=FwFormView():New()
+oView :=FwFormView():New()  
 
 //Define qual é o modelo de dados que será utilizado na View
 oView:SetModel(oModel)
@@ -148,9 +146,18 @@ oView:CreateHorizontalBox("GRID", 30)
 oView:SetOwnerView('VIEW_SZ4' , 'CABEC')
 oView:SetOwnerView('VIEW_SZ5' , 'GRID')
 
+// Criar campo numero do Item
+oView:AddIncrementalField("VIEW_SZ5", "Z5_ITEM")
+
+//Ordena o campo de item
+oStruSZ5:SetProperty("Z5_ITEM", MVC_VIEW_ORDEM, "01")
+
 // Remove o campo Filial
 oStruSZ4:RemoveField("Z4_FILIAL")
 oStruSZ5:RemoveField("Z5_FILIAL")
+
+// Remove o campo Codigo Acervo 
+oStruSZ5:RemoveField("Z5_ACERVO")
 
 // Cria o Título
 oView:EnableTitle('VIEW_SZ4' , "Informações do Livro")

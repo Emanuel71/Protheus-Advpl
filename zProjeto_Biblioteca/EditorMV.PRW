@@ -9,7 +9,7 @@
 @Version: 1.0
 ======================================================*/
 
-User Function EditorMVC()
+User Function EditorMV()
 local oBrowse
 Local aTable:= {}
 
@@ -17,10 +17,8 @@ Local aTable:= {}
 AADD(aTable, "SZ3")
 
 // Faz a validações se as tabelas existem
-
-if AvExisteTab(aTable)
-    FWAlertSuccess("Todas as tabelas diponiveis na base","Pode Prosseguir")
-else
+// ! - faz a negação da ação
+if !AvExisteTab(aTable)
     FWalertError("Tabelas não foram encontradas na base", "Contate o suporte")
     BREAK
 Endif
@@ -35,7 +33,7 @@ oBrowse:SetAlias('SZ3')
 oBrowse:SetDescription("Cadastro de Editoras")
 
 //Chamar Menu
-oBrowse:SetMenuDef('EditorMVC')
+oBrowse:SetMenuDef('EditorMV')
 
 //Realiza a Ativação do Browse
 oBrowse:Activate()
@@ -55,10 +53,10 @@ Static Function MenuDef()
     //O ViewDef deve ser referenciado sempre de um fonte, pois ele é a função reponável pela interface da aplicação
     //=============================================================================================================
     AADD(aRotina, {"Pesquisar" , 'PesqBrw'          , 0, 1, 0, Nil })
-    AADD(aRotina, {"Visualizar", 'VIEWDEF.EditorMVC', 0, 2, 0, Nil })
-    AADD(aRotina, {"Incluir"   , 'VIEWDEF.EditorMVC', 0, 3, 0, Nil })
-    AADD(aRotina, {"Alterar"   , 'VIEWDEF.EditorMVC', 0, 4, 0, Nil })
-    AADD(aRotina, {"Excluir"   , 'VIEWDEF.EditorMVC', 0, 5, 0, Nil })
+    AADD(aRotina, {"Visualizar", 'VIEWDEF.EditorMV', 0, 2, 0, Nil })
+    AADD(aRotina, {"Incluir"   , 'VIEWDEF.EditorMV', 0, 3, 0, Nil })
+    AADD(aRotina, {"Alterar"   , 'VIEWDEF.EditorMV', 0, 4, 0, Nil })
+    AADD(aRotina, {"Excluir"   , 'VIEWDEF.EditorMV', 0, 5, 0, Nil })
     
 
 Return aRotina
@@ -113,7 +111,7 @@ Local oStruSZ3  // Objeto da estrutura de dados
 Local oView     // Objeto de view
 
 //Cria o objeto do modelo de dados com base no ModelDef do fonte informado
-oModel := FwLoadModel('EditorMVC')
+oModel := FwLoadModel('EditorMV')
 
 //Cria a estrutura do view
 oStruSZ3 := FWFormStruct(2,"SZ3")  //Tipo de estrutura: 1-Para modelo de dados (Model) e 2-para View {SZ3 = tabela do banco de dados que vai compor a estrutura}

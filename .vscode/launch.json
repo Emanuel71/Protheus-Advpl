@@ -12,47 +12,8 @@
 	],
 	"lastPrograms": [
 		{
-			"args": [],
-			"label": "U_UPDSZ"
-		},
-		{
-			"label": "u_teste1"
-		},
-		{
-			"label": "u_teste2"
-		},
-		{
-			"args": [],
-			"label": "U_Func2"
-		},
-		{
-			"args": [],
-			"label": "U_Func1"
-		},
-		{
-			"label": "U_Funct2"
-		},
-		{
-			"label": "U_Funct4"
-		},
-		{
-			"args": [],
-			"label": "U_Funct1"
-		},
-		{
-			"args": [],
-			"label": "U_tipo1"
-		},
-		{
 			"label": "SIGAESP"
-		},
-		{
-			"label": "AutoresMVC"
-		},
-		{
-			"label": "U_AutoresMVC"
 		}
 	],
-	"lastProgramExecuted": "SIGAESP",
-	"lastProgramArguments": []
+	"lastProgramExecuted": "SIGAESP"
 }
