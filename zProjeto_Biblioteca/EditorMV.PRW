@@ -1,4 +1,5 @@
-#Include "PROTHEUS.CH"
+#INCLUDE "TOTVS.CH"
+#INCLUDE "PROTHEUS.CH"
 #INCLUDE "FWMBROWSE.CH"
 #INCLUDE "FWMVCDEF.CH"
 
@@ -78,11 +79,11 @@ oModel := MPFormModel():New('EditMVCM')
 oStruSZ3 := FWFormStruct(1,"SZ3") //1-Para modelo de dados (Model) e 2-para View
 
 // Cria campos obrigatorios
-oStruSZ3:SetProperty( 'Z3_NOME' , MODEL_FIELD_OBRIGAT, .T.)
-oStruSZ3:SetProperty( 'Z3_CNPJ' , MODEL_FIELD_OBRIGAT, .T.)
-oStruSZ3:SetProperty( 'Z3_LOGRADO' , MODEL_FIELD_OBRIGAT, .T.)
-oStruSZ3:SetProperty( 'Z3_MUNICIP' , MODEL_FIELD_OBRIGAT, .T.)
-oStruSZ3:SetProperty( 'Z3_CEP' , MODEL_FIELD_OBRIGAT, .T.)
+oStruSZ3:SetProperty( 'Z3_NOME'     , 10, .T.) // 10 = MODEL_FIELD_OBRIGAT (Barra de Favorito)
+oStruSZ3:SetProperty( 'Z3_CNPJ'     , 10, .T.)
+oStruSZ3:SetProperty( 'Z3_LOGRADO'  , 10, .T.)
+oStruSZ3:SetProperty( 'Z3_MUNICIP'  , 10, .T.)
+oStruSZ3:SetProperty( 'Z3_CEP'      , 10, .T.)
 
 //Adiciona ao modelo um componete do tipo formulario
 oModel:AddFields('SZ3MASTER', /*OWNER*/ ,oStruSZ3)

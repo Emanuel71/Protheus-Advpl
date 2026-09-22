@@ -1,14 +1,13 @@
 #include "totvs.ch"
-#include "tlpp.core.th"
-#include "restful.ch"
+#include "tlpp-core.th"
+#include "tlpp-rest.th"
 
-// https://localhost:8080/rest/tstget
+//https://localhost:8080/rest/tstget
 
-@get(endpoint= '/tstget',description='Meu primeiro teste Get')
+@get(endpoint='/tstget', description='Meu primeiro teste Get')
 
+User Function gettst() as logical
 
-User Function gettst as logical
+oRest:setResponse('{"ola": "Meu primeiro teste Get"}')
 
-oRest: setResponde('{"ola": "meu primeiro tst"}')
-
-Return oRest
+return .T.

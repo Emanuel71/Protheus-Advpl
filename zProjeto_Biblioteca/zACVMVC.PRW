@@ -1,3 +1,4 @@
+#Include "TOTVS.CH"
 #Include "PROTHEUS.CH"
 #INCLUDE "FWMBROWSE.CH"
 #INCLUDE "FWMVCDEF.CH"
@@ -80,7 +81,7 @@ Local oStruSZ4  // Objeto da estrutura de dados
 Local oStruSZ5  // Objeto da estrutura de dados
 
 //Cria o objeto do modelo de dados
-oModel := MPFormModel():New('zACVMVC')
+oModel := MPFormModel():New('zACVMVCM')
 
 //Cria a estrutura que será utilizada no modelo
 oStruSZ4 := FWFormStruct(1,"SZ4") //1-Para modelo de dados (Model) e 2-para View
@@ -94,6 +95,9 @@ oStruSZ4:SetProperty( 'Z4_AUTOR' , MODEL_FIELD_OBRIGAT, .T.)
 oStruSZ4:SetProperty( 'Z4_PAGINAS' , MODEL_FIELD_OBRIGAT, .T.)
 oStruSZ4:SetProperty( 'Z4_DEVPREV' , MODEL_FIELD_OBRIGAT, .T.)
 
+//Travamento do campo para não editar 
+oStruSZ5:SetProperty("Z5_ACERVO", MODEL_FIELD_WHEN, {|| .F.})
+
 // Cria o Cabeçalho da Tela de Cadastro
 oModel:AddFields('SZ4_TOPO', /*OWNER*/ ,oStruSZ4)
 oModel:GetModel('SZ4_TOPO'):SetPrimaryKey({'Z4_Codigo'})
@@ -103,7 +107,7 @@ oModel:AddGrid('SZ5_GRID','SZ4_TOPO',oStruSZ5)
 oModel:GetModel('SZ5_GRID'):Setoptional(.F.) //F = Obrigatorio, T = Opcional
 
 // Relacionamento entre entidade Pai e Filho
-oModel:SetRelation('SZ5_GRID',{{"Z5_Filial","xFilial('SZ5')"} , {"Z5_ACERVO","Z4_CODIGO"}}, SZ5->(IndexKey(1)) )
+oModel:SetRelation('SZ5_GRID',{{"Z5_FILIAL","xFILIAL('SZ5')"} , {"Z5_ACERVO","Z4_CODIGO"}}, SZ5->(IndexKey(1)) )
 oModel:GetModel("SZ5_GRID"):SetUniqueLine({'Z5_CODIGO'})
 
 // Define a Descrição
@@ -152,7 +156,7 @@ oView:AddIncrementalField("VIEW_SZ5", "Z5_ITEM")
 //Ordena o campo de item
 oStruSZ5:SetProperty("Z5_ITEM", MVC_VIEW_ORDEM, "01")
 
-// Remove o campo Filial
+// Remove o campo FILIAL
 oStruSZ4:RemoveField("Z4_FILIAL")
 oStruSZ5:RemoveField("Z5_FILIAL")
 
