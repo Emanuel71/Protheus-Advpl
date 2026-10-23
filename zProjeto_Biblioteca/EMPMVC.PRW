@@ -122,7 +122,7 @@ oModel:AddFields('SZ6_TOPO', /*OWNER*/ ,oStruSZ6)
 oModel:GetModel('SZ6_TOPO'):SetPrimaryKey({'Z6_Protoco'})
 
 // Cria Grid
-oModel:AddGrid('SZ7_GRID','SZ6_TOPO',oStruSZ7, bLinOK)
+oModel:AddGrid('SZ7_GRID','SZ6_TOPO',oStruSZ7,bLinOK)
 oModel:GetModel('SZ7_GRID'):Setoptional(.F.)
 
 // Relacionamento entre entidade Pai e Filho
